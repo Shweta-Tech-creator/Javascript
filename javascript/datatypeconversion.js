@@ -30,3 +30,30 @@ let number = 19
 let number1 = String( number)
 console.log(number1);
 console.log(typeof number1);
+
+
+// ********* operations **********
+
+let num = 19
+let negnum = -num
+console.log(negnum);
+
+
+let str1 = "shweta"
+let str2 = " ganesh kadam "
+let str3 = str1 + str2
+console.log(str3);
+
+
+console.log("1" + 2);  //12
+console.log(1 + "2");  //12
+console.log("1" + 2 + 2);   //122
+console.log(1+ 2 + "2");   //32
+
+console.log(+true);  //1
+console.log(+"");
+
+
+let gamecounter = 100
+++gamecounter
+console.log(gamecounter);
