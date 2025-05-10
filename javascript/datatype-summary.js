@@ -1,4 +1,7 @@
 // Primitive:
+
+const { captureOwnerStack } = require("react");
+
 // 7 types: String, Number, Boolean , Null, Undefined, Symbol, BigInt 
 const score = 100
 const scoreValue = 100.3
@@ -29,3 +32,25 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// ******************Stack and Heap ****************
+
+// Stack(Primitive) and Heap (non-primitve)
+let myname ="Shweta" 
+let anothername = myname
+anothername = "Shweta kadam"
+console.log(myname);
+console.log(anothername);
+
+let Userone = {
+    email: "user@gmail.com",
+    upi: "upi@.com"
+}
+
+let usertwo = Userone
+usertwo.email = "shweta@gmail.com"
+console.log(Userone);
+console.log(usertwo);
+
