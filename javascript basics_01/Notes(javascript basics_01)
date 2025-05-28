@@ -1,0 +1,55 @@
+# 📘 JavaScript Notes with Code Examples
+
+This file contains concise notes and working code snippets on essential JavaScript topics.
+---
+
+## 📂 File Descriptions
+
+### ✅ `variables`
+**Definition:** Variables are containers for storing data values. In JavaScript, we declare them using `var`, `let`, or `const`.
+
+let name = "Shweta";
+const age = 19;
+var city = "Thane";
+
+### ✅ `Datatypes`
+**Definition:** Data types define the type of value a variable holds. JavaScript has primitive (string, number, boolean, null, undefined, symbol, bigint) and reference (objects, arrays) types.
+let num = 42;         // Number
+let text = "Hello";   // String
+let isTrue = true;    // Boolean
+let user = null;      // Null
+let data;             // Undefined
+
+### ✅ `datatypeconversion`
+**Definition:** Type conversion is changing a value from one data type to another.
+let x = "123";
+let y = Number(x); // Converts string to number
+console.log(typeof y); // number
+
+let z = String(456);
+console.log(typeof z); // string
+
+### ✅ `comparison`
+**Definition:** Comparison operators are used to compare two values.
+console.log(5 == '5');   // true (loose equality)
+console.log(5 === '5');  // false (strict equality)
+console.log(10 > 5);     // true
+
+### ✅ `string`
+**Definition:**Strings are text values. JavaScript provides many methods to work with strings.
+let str = "JavaScript";
+console.log(str.length);        // 10
+console.log(str.toUpperCase()); // JAVASCRIPT
+console.log(str.includes("Script")); // true
+
+### ✅ ` nums and maths`
+**Definition:**JavaScript has built-in number methods and a Math object to perform mathematical operations.
+let num = 3.14;
+console.log(Math.round(num));  // 3
+console.log(Math.random());    // random number between 0 and 1
+
+### ✅ `date`
+**Definition:**The Date object is used to work with dates and times.
+let today = new Date();
+console.log(today.toDateString()); // e.g., Mon May 27 2025
+
