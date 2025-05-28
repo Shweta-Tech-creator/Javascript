@@ -1,0 +1,82 @@
+📚 JavaScript Notes: Arrays & Objects
+This section covers fundamental concepts and examples for working with Arrays and Objects in JavaScript.
+
+🔷 Arrays
+Definition:
+An array is a special variable that can hold more than one value at a time. Values in an array are ordered and indexed starting from 0.
+
+📌 Creating an Array
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits);           // ["Apple", "Banana", "Mango"]
+console.log(fruits[0]);        // Apple
+console.log(fruits.length);    // 3
+
+📌 Common Array Methods
+let numbers = [1, 2, 3, 4, 5];
+
+numbers.push(6);         // Adds to end
+numbers.pop();           // Removes from end
+numbers.shift();         // Removes from start
+numbers.unshift(0);      // Adds to start
+
+console.log(numbers);    // [0, 2, 3, 4, 5]
+
+📌 Looping Through an Array
+let colors = ["red", "green", "blue"];
+for (let i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
+}
+
+📌 Using map() and filter()
+let squares = [1, 2, 3, 4].map(num => num * num);
+console.log(squares); // [1, 4, 9, 16]
+
+let evens = [1, 2, 3, 4].filter(num => num % 2 === 0);
+console.log(evens); // [2, 4]
+
+
+🔷 Objects
+Definition:
+Objects store data in key-value pairs. Keys are always strings (or symbols), and values can be any data type including arrays and other objects.
+
+📌 Creating an Object
+let person = {
+  name: "Shweta",
+  age: 25,
+  city: "Thane"
+};
+console.log(person.name);   // Shweta
+console.log(person["age"]); // 25
+
+📌 Adding & Updating Properties
+person.email = "shweta@example.com";
+person.age = 26;
+console.log(person);
+
+📌 Nested Objects
+let student = {
+  name: "Riya",
+  marks: {
+    math: 90,
+    science: 85
+  }
+};
+console.log(student.marks.math); // 90
+
+📌 Object Methods
+let car = {
+  brand: "Tata",
+  model: "Nexon",
+  start: function () {
+    return "Engine started!";
+  }
+};
+console.log(car.start()); // Engine started!
+
+📌 Object Destructuring
+const user = {
+  username: "shweta123",
+  location: "India"
+};
+const { username, location } = user;
+console.log(username); // shweta123
