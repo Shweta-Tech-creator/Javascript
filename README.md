@@ -2,7 +2,7 @@
 
 This repository contains structured notes and code snippets for learning and revising core JavaScript concepts. It's designed for beginners and intermediate learners who want to build a solid foundation in JavaScript.
 
----
+--
 
 ## 📚 Topics Covered
 
