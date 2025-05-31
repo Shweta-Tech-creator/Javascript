@@ -51,9 +51,15 @@ This repository contains structured notes and code snippets for learning and rev
 
 ---
 
+12. **Functions**
+    - Function declarations and expressions
+    - Arrow functions
+    - Parameters, default values, and rest operator
+    - Returning values
+    - Callbacks and higher-order functions
+
 ## 🧠 Upcoming Topics (Will Be Added Soon)
 
-- Functions
 - DOM Manipulation
 - Events
 - Loops and Iteration
