@@ -56,7 +56,7 @@ This repository contains structured notes and code snippets for learning and rev
     - Arrow functions
     - Parameters, default values, and rest operator
     - Returning values
-    - Callbacks and higher-order functions
+    - Object destructuring in parameters
 
 ## 🧠 Upcoming Topics (Will Be Added Soon)
 
